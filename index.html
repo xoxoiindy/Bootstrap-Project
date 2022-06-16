@@ -72,16 +72,16 @@
 
 
         <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last col-md-3">
+            <div class="col-sm-4 col-md-3">
                 <h2 class="text-sm-right">Featured Campsites</h2>
             </div>
-            <div class="col">
+            <div class="col d-flex align-items-center">
                 <div class="media">
-                    <img class="d-flex ml-3 img-thumbnail" src="img/react-lake-thumb.jpg " alt="Breadcrumb Trail" />
                     <div class="media-body align-self-center">
                         <h3>React Lake Campground</h3>
                         <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
                     </div>
+                    <img src="/img/react-lake-thumb.jpg" class="img-fluid img-thumbnail d-flex ml-3" alt="React Lake Campground"/>
                 </div>
             </div>
         </div>
@@ -109,7 +109,13 @@
                         <div class="row form-group">
                             <label for="nuCampers" class="col-sm-6 col-form-label">Number of campers </label>
                             <select class="col form-control" id="nuCampers">
+                                <option>Select</option>
                                 <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
                             </select>
 
                         </div>
